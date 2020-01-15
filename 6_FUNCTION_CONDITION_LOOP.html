@@ -1,0 +1,69 @@
+<!DOCTYPE html >
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <title>JS Basics - Functions, Conditions, Loops</title>
+
+      <script>
+           
+			function logEntry(sEntryName) {
+				console.log(sEntryName);
+			}
+			
+			var aColors = [
+			   "Red",
+			   "Blue",
+			   "Green"
+			];
+			
+			var aBasicColors;
+			
+			if(!aBasicColors) {
+				console.log("YAY, basic colors are not initialized!");
+			}
+			
+			if(aColors.length < 5) {
+				console.log("We have less than 5 colors!");
+			}
+			
+			switch(aColors[0]) {
+				case "Red":
+					console.log("I'm red!");
+					break;
+				case "Blue":
+					console.log("I'm blue!");
+					break;
+				default:
+					console.log("Opps");
+					break;
+			}
+		
+			console.log("For loop:");
+			for(var i = 0; i < aColors.length; i++ ) {
+				logEntry(aColors[i]);
+				
+			}
+			
+			console.log("While loop:");
+			var cnt = 0;
+			while(cnt<aColors.length) {
+				logEntry(aColors[cnt]);
+				cnt++;
+			}
+			
+			console.log("Do-while loop:");
+			cnt = 0;
+			do {
+				logEntry(aColors[cnt]);
+				cnt++;
+			} while(cnt<aColors.length);
+			
+			var sTernary = (cnt > 0) ? "We have colors!" : "We don't have colors";
+			console.log(sTernary);
+           
+      </script>
+   </head>
+   <body class="sapUiBody" id="content">
+   </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <title>JS Basics - Functions, Conditions, Loops</title>
+
+      <script>
+            function Product(name) {
+			   this.name = name;
+			}
+			
+			Product.prototype.getName = function() {
+			   return this.name;
+			}
+			
+			var myProduct = new Product("TestProduct");
+			
+			console.log("myProduct.constructor === Product: " + (myProduct.constructor === Product));
+			console.log("myProduct.prototype: " + myProduct.prototype);
+			console.log("myProduct.__proto__ === Product.prototype: " +  (myProduct.__proto__ === Product.prototype));
+			console.log("Product.prototype.__proto__ === Object.prototype: " +  (Product.prototype.__proto__ === Object.prototype));
+			console.log("Product.__proto__ === Object.getPrototypeOf(myProduct): " +  (Product.__proto__ === Object.getPrototypeOf(myProduct)));
+
+			console.log(myProduct.getName());
+			myProduct.barcode = "123456789";
+			
+			myProduct.getName = function() {
+			   return "This is " + this.name + " (" + this.barcode + ")";
+			}
+			console.log(myProduct.getName());
+			console.log(Product.prototype.getName.call(myProduct));
+			
+			
+      </script>
+   </head>
+   <body class="sapUiBody" id="content">
+   </body>
+</html>

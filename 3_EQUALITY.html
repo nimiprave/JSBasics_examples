@@ -1,0 +1,60 @@
+<!DOCTYPE html >
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <title>JS Basics - Equality</title>
+
+      <script>
+            var a = 1;
+			var b = "1";
+			
+            console.log( "a == b: " + (a == b) );
+            console.log( "a === b: " + (a === b) );
+            
+            function checkTruth(variable) {
+            	if(variable) {
+	            	console.log( "'" + variable + "' is true" );
+	            } else {
+	            	console.log( "'" + variable + "' is false" );
+	            }
+            }
+            
+            checkTruth(a);
+            checkTruth("Text");
+
+            checkTruth(0);
+            checkTruth(-0);
+            checkTruth(NaN);
+            checkTruth("");
+            checkTruth(null);
+            checkTruth(undefined);
+            checkTruth(false);
+            
+            //Coercion to string
+            var iString = 1;
+            new String(1);
+            1+"";
+            
+            //Coercion to number
+            var sNum = "1";
+            new Number(sNum);
+            +sNum;
+            
+            //Coercion to boolean
+            var sBoolean = "Hello";
+            new Boolean(sBoolean);
+            !!sBoolean;
+            
+            //Overloading the OR operator
+            function setName(sName) {
+            	this.sLocalName = sName || "";
+            }
+            setName();
+            setName("World");
+           
+      </script>
+   </head>
+   <body class="sapUiBody" id="content">
+   </body>
+</html>

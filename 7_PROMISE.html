@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <title>JS Basics - Functions, Conditions, Loops</title>
+
+      <script>
+            var iCounter = 0;
+			var oMyPromise = new Promise(
+				function(fnResolve, fnReject) {
+					console.log("promise initialized");
+					window.setTimeout(
+						function() { console.log("Resolved."); fnResolve(iCounter);  },
+						3000
+					);
+				}
+			);
+			
+			oMyPromise.then(
+				function(value) {
+					console.log(value);
+				},
+				function(reason) {
+					console.log(reason);
+				}
+			);
+			
+      </script>
+   </head>
+   <body class="sapUiBody" id="content">
+   </body>
+</html>

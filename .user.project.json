@@ -1,0 +1,140 @@
+{
+  "run": [
+    {
+      "filePath": "/8_PROTOTYPE.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 6790349,
+        "runnerId": "webapprunner",
+        "displayName": "Run 8_PROTOTYPE.html"
+      }
+    },
+    {
+      "filePath": "/7_PROMISE.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 1428147,
+        "runnerId": "webapprunner",
+        "displayName": "Run 7_PROMISE.html"
+      }
+    },
+    {
+      "filePath": "/6_FUNCTION_CONDITION_LOOP.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 6344004,
+        "runnerId": "webapprunner",
+        "displayName": "Run 6_FUNCTION_CONDITION_LOOP.html"
+      }
+    },
+    {
+      "filePath": "/5_ARRAYS.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 6674474,
+        "runnerId": "webapprunner",
+        "displayName": "Run 5_ARRAYS.html"
+      }
+    },
+    {
+      "filePath": "/4_OBJECT.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 568144,
+        "runnerId": "webapprunner",
+        "displayName": "Run 4_OBJECT.html"
+      }
+    },
+    {
+      "filePath": "/3_EQUALITY.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 4038454,
+        "runnerId": "webapprunner",
+        "displayName": "Run 3_EQUALITY.html"
+      }
+    },
+    {
+      "filePath": "/2_VALUES_TYPES.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 3478263,
+        "runnerId": "webapprunner",
+        "displayName": "Run 2_VALUES_TYPES.html"
+      }
+    },
+    {
+      "filePath": "/1_DEMO.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "_metadata": {
+        "id": 6670544,
+        "runnerId": "webapprunner",
+        "displayName": "Run 1_DEMO.html"
+      }
+    }
+  ]
+}

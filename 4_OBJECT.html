@@ -1,0 +1,32 @@
+<!DOCTYPE html >
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <title>JS Basics - Objects</title>
+
+      <script>
+           
+            var oPerson = {
+			   sName : "John Doe",
+			   iAge : 28,
+			   oBody : {
+					iLegs : 2,
+					iArms : 2,
+					iHead: 1
+			   },
+			   fnGetAge : function() { return this.iAge },
+			   fnPrintData : function() { console.log("I'm " + this.sName + " (" + this.iAge + ") with " + this.oBody.iHead + " head."); }
+			};
+
+			console.log(oPerson.sName);
+			console.log(oPerson["oBody"]);
+			console.log(oPerson.fnGetAge());
+			oPerson.fnPrintData();
+			console.log(oPerson);
+           
+      </script>
+   </head>
+   <body class="sapUiBody" id="content">
+   </body>
+</html>

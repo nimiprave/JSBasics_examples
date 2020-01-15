@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html>
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <title>JS Basics - Arrays</title>
+
+      <script>
+           
+			var aColors = [
+			   "Red",
+			   "Blue",
+			   "Green"
+			];
+			
+			console.log(aColors);
+			console.log(aColors[0]);
+			console.log("Number of colors: " + aColors.length);
+			console.log("Index of blue color: " + aColors.indexOf("Blue"));
+			aColors.push("Yellow");
+			console.log("Number of colors: " + aColors.length);
+			
+			var aBasicColors = aColors.slice(0, 3);
+			console.log(aBasicColors);
+			
+			var aTest = [];
+			aTest[4] = "Test";
+			aTest.push("Test");
+			console.log(aTest.length);
+			
+
+           
+      </script>
+   </head>
+   <body class="sapUiBody" id="content">
+   </body>
+</html>
